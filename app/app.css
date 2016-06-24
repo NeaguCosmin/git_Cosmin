@@ -1,7 +1,13 @@
 body {
     margin: 0;
 }
-.fundal {
+h1, p {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding-top:20px;
+}
+.fundal1 {
     background: url("assets/images/bg2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -30,7 +36,7 @@ body {
 .buton1 {
     border-radius: 28px;
     margin-top: 10px;
-    margin-left: 885px;
+    margin-left: 855px;
     font-size: 20px;
     padding: 9px 20px 10px 20px;
     background-color: transparent;
@@ -44,35 +50,36 @@ body {
     border: solid #000000 4px;
     text-decoration: none;
 }
-.round-button {
-	width:100px;
+.col-inline {
+    width: 33%;
+    display: inline-block;
 }
-.round-button div{
-	width: 100%;
-	height:0;
-	padding-bottom: 100%;
+.image-wrapper {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    padding: 15px;
+    border: solid #000000 2px;
     border-radius: 50%;
-	border:10px solid #cfdcec;
-    overflow:hidden;
-
-    background: #4679BD;
-    box-shadow: 0 0 3px gray;
+    position:relative;
 }
-.round-button div:hover{
-	background:#30588e;
+.col-inline img {
+    height: 50px;
+    width: 50px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -25px;
 }
-.round-button a {
-  display:block;
-	width:100%;
-	padding-top:50%;
-    padding-bottom:50%;
-	line-height:1em;
-	margin-top:-0.5em;
+.fundal2 {
+    background-color: rgb(27, 233, 233);
+    background-size: cover;
+    height: 270px;
+}
 
-	text-align:center;
-	color:#e2eaf3;
-    font-family:Verdana;
-    font-size:1.2em;
-    font-weight:bold;
-    text-decoration:none;
+#container1{
+  width:1000px;
+  margin-left:425px;
+  margin-top:40px;
 }
