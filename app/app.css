@@ -32,11 +32,12 @@ h1, p {
     text-align: center;
     font-size: 50px;
     color: white;
+    margin-bottom: 10px;
 }
 .buton1 {
     border-radius: 28px;
     margin-top: 10px;
-    margin-left: 855px;
+    margin-left: 853px;
     font-size: 20px;
     padding: 9px 20px 10px 20px;
     background-color: transparent;
@@ -73,13 +74,48 @@ h1, p {
     margin-left: -25px;
 }
 .fundal2 {
-    background-color: rgb(27, 233, 233);
+    background-color:#1BE9E9;
     background-size: cover;
     height: 270px;
 }
 
-#container1{
+.container{
   width:1000px;
   margin-left:425px;
   margin-top:40px;
+}
+
+.fundal3 {
+    background-color:#153636;
+    background-size: cover;
+    height: 800px;
+}
+.row-group{
+  width:1200px;
+  margin-left:450px;
+  padding-top:10px;
+}
+.col{
+  width: 27%;
+  float:left;
+  padding-right:15px;
+}
+.col img{
+  height:240px;
+  width:320px;
+}
+
+.row-group:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+#pad{
+  padding-bottom:15px;
+}
+
+.col img:hover{
+  transform:scale(1.2);
+  transition:1.5;
+  opacity:0.9;
 }
