@@ -37,7 +37,7 @@ h1, p {
 .buton1 {
     border-radius: 28px;
     margin-top: 10px;
-    margin-left: 853px;
+    margin-left: 880px;
     font-size: 20px;
     padding: 9px 20px 10px 20px;
     background-color: transparent;
@@ -63,6 +63,9 @@ h1, p {
     border: solid #000000 2px;
     border-radius: 50%;
     position:relative;
+}
+.image-wrapper:hover{
+  background-color:red;
 }
 .col-inline img {
     height: 50px;
