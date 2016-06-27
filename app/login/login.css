@@ -1,0 +1,123 @@
+body{
+  margin:0;
+}
+.fundal1 {
+    background-color: #000000;
+    height: 80px;
+    width:100%;
+    position:fixed;
+}
+.alignl{
+  float:left;
+  height:90px;
+  padding-top:20px;
+}
+.alignl a{
+  padding:10px 20px;
+  font-size:30px;
+  text-decoration:none;
+  color:white;
+  font-weight:bolder;
+
+}
+.alignr {
+   float:right;
+    text-align: right;
+    height: 90px;
+    padding-top: 20px
+}
+.alignr a {
+    padding: 10px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+.alignr a:last-child {
+    padding-right: 20px;
+}
+.fundal2 {
+  margin:0;
+  background-color: #1BE9E9;
+  height: 600px;
+}
+#hdr{
+  margin:0;
+  color:white;
+  margin-left:800px;
+}
+h1{
+  margin:0;
+  font-size:40px;
+  padding-bottom:10px
+}
+.loginform{
+  width:30%;
+  color:white;
+  margin:auto;
+  padding-top:170px;
+}
+#usr{
+  font-size:20px;
+}
+#pswd{
+  font-size:20px;
+}
+.log{
+  width:100%;
+  height:30px;
+  background-color: transparent;
+  border: solid #ffffff 1px;
+  border-radius: 5%;
+  color:white;
+}
+
+#wd{
+  width:100%;
+}
+#submit{
+  font-weight:bold;
+  padding:10px 30px;
+  margin-top:10px;
+  background-color:transparent;
+  border: solid #ffffff 1px;
+  border-radius: 5%;
+  color:white;
+}
+#fl{
+  float:left;
+}
+#fr{
+  float:right;
+  margin-top:20px;
+  font-weight:bold;
+
+}
+#fr a{
+  text-decoration:none;
+  color:#000000;
+  font-weight:bolder;
+}
+#ffont{
+  text-align:center;
+  color:#000000;
+  font-weight:bold;
+
+}
+.loginform input[class="log"]:invalid{
+  border-color:red;
+}
+#arrow{
+  color:cyan;
+}
+#arrow:hover{
+  transition:1.5s;
+  transform:scale(1.5) rotate(360deg);
+}
+#fter{
+  margin-top:13%;
+}
+input#submit:hover{
+  background-color:white;
+  color:black;
+  border-color:black
+}
