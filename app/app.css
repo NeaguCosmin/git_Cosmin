@@ -5,7 +5,7 @@ h1, p {
     color: white;
     text-align: center;
     margin: 0;
-    padding-top:20px;
+    padding-top:1.1%;
 }
 .fundal1 {
     background: url("assets/images/bg2.jpg");
@@ -50,7 +50,7 @@ h1, p {
 .buton1 {
     border-radius: 28px;
     margin-top: 10px;
-    margin-left: 855px;
+    margin-left: 46.4%;
     font-size: 20px;
     padding: 9px 20px 10px 20px;
     background-color: transparent;
@@ -97,7 +97,7 @@ h1, p {
 
 .container{
   width:1000px;
-  margin-left:425px;
+  margin-left:445px;
   margin-top:40px;
 }
 
