@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+}
+h4 {
+    font-weight: bold;
+}
+.fundal1 {
+    background-color: #1EF2B9;
+}
+.fundal2 {
+    background: url("../assets/images/pat-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#centru {
+    margin-top: 3%;
+    padding: 80px 0px;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+}
+#navpad {
+    padding-right: 10px;
+}
+.nomarg {
+    text-align: center;
+    color: black;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.col-sm-3 img {
+    height: auto;
+    width: 100%;
+}
+.pricetag {
+    color: black;
+    font-size: 30px;
+}
+.card {
+    box-shadow: 0px 5px 0px #EBEBEB;
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+}
+.card-img-top {
+    border-radius: 5px 5px 0px 0px;
+}
+.card-img-top:hover {
+    transition: 1.5s;
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+#search {
+    width: 100%;
+    height: 40px;
+    border: solid #EBEBEB 2px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+li img {
+    margin-bottom: 15px;
+}
+.sale {
+    height: 50px;
+    width: 50px;
+    z-index: 20;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    top: 49%;
+    left: 115%;
+    margin-top: -150px;
+    margin-left: -60px;
+    position: absolute;
+}
+.sale h4 {
+    line-height: 27px;
+    text-align: center;
+}
