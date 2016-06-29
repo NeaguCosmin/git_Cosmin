@@ -113,5 +113,8 @@ h1{
   transform:scale(1.5) rotate(360deg);
 }
 #fter{
-  margin-top:13%;
+
+}
+#navpad {
+    padding-right: 10px;
 }

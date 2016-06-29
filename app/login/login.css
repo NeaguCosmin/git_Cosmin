@@ -114,10 +114,13 @@ h1{
   transform:scale(1.5) rotate(360deg);
 }
 #fter{
-  margin-top:13%;
+  
 }
 input#submit:hover{
   background-color:white;
   color:black;
   border-color:black
+}
+#navpad {
+    padding-right: 10px;
 }

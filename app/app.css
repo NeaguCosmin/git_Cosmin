@@ -124,7 +124,7 @@ body {
 }
 .fundal3 img:hover {
     transition: 2s;
-    transform: scale(1.2);
+    transform: scale(1.1);
     opacity: 0.7;
 }
 #ffont {

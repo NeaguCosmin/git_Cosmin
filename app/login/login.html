@@ -6,20 +6,30 @@
   <link rel="stylesheet" type="text/css" href="login.css">
   <link rel="stylesheet" type="text/css" href="../assets/css/font-awesome.css">
   <link rel="stylesheet" type="text/css" href="../normalize.css">
+  <link rel="stylesheet" type="text/css" href="../assets/bootstrap/css/bootstrap.css">
+  <script src="../assets/js/jquery-2.1.4.js"></script>
+  <script src="../assets/bootstrap/js/bootstrap.js"></script>
 </head>
 <body id="top">
-  <section class="fundal1">
-      <header>
-        <nav class="alignl">
-          <a href="../index.html">Qshop</a>
+    <header id='header'>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div>
+                <div class="navbar-header">
+                    <button type="button" data-target="#myNavbar" data-toggle="collapse" class="btn btn-default btnlg navbar-toggle">
+                        <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+                    </button>
+                    <a href="index.html" class="navbar-brand">QShop</a>
+                </div>
+                <div id="myNavbar" class="collapse navbar-collapse">
+                    <ul id="navpad" class="nav navbar-nav navbar-right">
+                        <li><a href="about/about.html">About</a></li>
+                        <li><a href="contact/contact.html">Contact</a></li>
+                        <li><a href="login/login.html">Login</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-          <nav class="alignr">
-              <a href="../about/about.html">About</a>
-              <a href="../contact/contact.html">Contact</a>
-              <a href="../login/login.html">Login</a>
-          </nav>
-      </header>
-</section>
+    </header>
 <section class="fundal2">
   <div class="loginform">
     <form id="wd" method="post">
