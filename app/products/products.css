@@ -46,10 +46,6 @@ h4 {
 .card-img-top {
     border-radius: 5px 5px 0px 0px;
 }
-.card img:hover {
-    transition: 1.5s;
-    opacity: 0.8;
-}
 ul {
     list-style: none;
     padding: 0;
@@ -61,23 +57,18 @@ ul {
     border-radius: 5px;
     font-size: 20px;
     margin-bottom: 30px;
-
 }
-#searchtitle{
-  font-weight:bold;
-  margin-bottom:30px;
+#searchtitle {
+    font-weight: bold;
+    margin-bottom: 30px;
 }
 li img {
     margin-bottom: 40px;
 }
-li img:hover{
-  transition: 1.5s;
-  transform: scale(1.1);
-  opacity: 0.8;
-}
-li img:hover .addtocart{
-  transition:1.5s;
-  opacity:1;
+li img:hover {
+    transition: 1.5s;
+    transform: scale(1.1);
+    opacity: 0.8;
 }
 .sale {
     height: 50px;
@@ -109,30 +100,38 @@ li img:hover .addtocart{
     transition: 1.5s;
     transform: scale(1.5) rotate(360deg);
 }
-.addtocart{
-  background-color:black;
-  height: 33px;
-  width: 189px;
-  border-radius:5px 5px 0px 0px;
-  top: 55%;
-  left: 31%;
-  margin-top: -150px;
-  margin-left: -59px;
-  z-index:10;
-  opacity:0;
-  position: absolute;
+.addtocart {
+    background-color: black;
+    height: 33px;
+    width: 189px;
+    border-radius: 5px 5px 0px 0px;
+    top: 55%;
+    left: 31%;
+    margin-top: -150px;
+    margin-left: -58px;
+    z-index: 10;
+    opacity: 0;
+    position: absolute;
 }
-.addtocart a{
-  text-decoration:none;
-  color:white;
-  font-weight:bold;
+.card-img-top:hover {
+    transition:1.5s;
+    opacity: 0.7;
 }
-.addtocart a:hover{
-  text-decoration:none;
-  color:white;
-  font-weight:bold;
+.top-img-card:hover .addtocart {
+    transition: 1.5s;
+    opacity: 1;
 }
-
-#ppad{
-  padding-top:2%;
+.addtocart a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.addtocart a:hover {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#ppad {
+    padding-top: 2%;
+    padding-left: 28%;
 }
