@@ -1,46 +1,8 @@
-body {
-    margin: 0;
-}
 .fundal1 {
     background: url("assets/images/bg2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
-}
-.nomarg {
-    margin: 0;
-    color: white;
-    text-align: center;
-    padding-top: 0.5%;
-}
-.alignl {
-    float: left;
-    height: 90px;
-    padding-top: 20px;
-}
-.alignl a {
-    padding: 10px 20px;
-    font-size: 30px;
-    text-decoration: none;
-    color: white;
-    font-weight: bolder;
-}
-#navpad {
-    padding-right: 10px;
-}
-.alignr {
-    text-align: right;
-    height: 90px;
-    padding-top: 20px
-}
-.alignr a {
-    padding: 10px;
-    font-size: 25px;
-    text-decoration: none;
-    color: white;
-}
-.alignr a:last-child {
-    padding-right: 20px;
 }
 #centru {
     margin-top: 2.6%;
@@ -67,9 +29,20 @@ body {
     border: solid #000000 4px;
     text-decoration: none;
 }
-.col-inline {
-    width: 33%;
-    display: inline-block;
+.nomarg {
+    margin: 0;
+    color: white;
+    text-align: center;
+    padding-top: 0.5%;
+}
+.fundal2 .container{
+  padding-bottom:15px;
+  padding-top:10px;
+}
+.row:after {
+    content: "";
+    display: block;
+    clear: both;
 }
 .image-wrapper {
     height: 120px;
@@ -92,54 +65,19 @@ body {
     margin-top: -40px;
     margin-left: -40px;
 }
-.fundal2 {
-    background-color: #1BE9E9;
-    margin-top: 0;
-}
 .fundal3 {
     background-color: #153636;
 }
-.row-group {
-    width: 1200px;
-    margin-left: 23.5%;
-    padding-top: 10px;
-}
-.col {
-    width: 27%;
-    float: left;
-    padding-right: 15px;
+#pad {
+    padding-bottom: 15px;
 }
 .fundal3 img {
     height: auto;
     width: 100%;
     margin-bottom: 30px;
 }
-.row:after {
-    content: "";
-    display: block;
-    clear: both;
-}
-#pad {
-    padding-bottom: 15px;
-}
 .fundal3 img:hover {
     transition: 2s;
     transform: scale(1.1);
     opacity: 0.7;
-}
-#ffont {
-    text-align: center;
-    color: #000000;
-    font-weight: bold;
-}
-#arrow {
-    color: cyan;
-}
-#arrow:hover {
-    transition: 1.5s;
-    transform: scale(1.5) rotate(360deg);
-}
-.fundal2 .container{
-  padding-bottom:15px;
-  padding-top:10px;
 }
