@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>JS Bin</title>
+
+</head>
+
+<body>
+    <div id="content">
+        <p>Hello World</p>
+        <span>I am a span</span>
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
+        <div class="container">
+
+            <div id="div1" class="div"> <span>First Span!</span></div>
+            <div id="div2" class="div"> <span>Second Span!</span></div>
+            <div id="div3" class="div"> <span>Third Span!</span></div>
+        </div>
+        <div class="container" <div id="div4" class="div"> <span>Forth Span!</span></div>
+        <div id="div5" class="div"> <span>Fifth Span!</span></div>
+        <div id="div6" class="div"> <span>Sixth Span!</span></div>
+    </div>
+    </div>
+    <script>
+        (function() {
+            var element = document.querySelector('#content ul');
+            var size = element.querySelectorAll('li').length;
+            for (var i = 1; i <= size; i++) {
+                var newNode = document.createElement('li');
+                newNode.innerHTML = i + size;
+                element.appendChild(newNode);
+            }
+        })();
+    </script>
+</body>
+
+</html>
